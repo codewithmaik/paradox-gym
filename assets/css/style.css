@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -24,3 +26,35 @@ body {
 .main-content {
     width: 40%;
 }
+
+.logo {
+    width: 275px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.main-offer {
+    margin: 75px 15px 75px 15px;
+}
+
+.main-heading {
+    margin: 0 0 0 50px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.main-heading > strong {
+    text-transform: uppercase;
+}
+
+.main-offer-price {
+    display: block;
+    margin-top: 20px;
+    font-size: 120px;
+}
+
