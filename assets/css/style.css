@@ -34,12 +34,10 @@ body {
 }
 
 .main-offer {
-    margin: 75px 15px 75px 15px;
+    margin: 75px 15px 75px 50px;
 }
 
 .main-heading {
-    margin: 0 0 0 50px;
-
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-size: 30px;
@@ -56,15 +54,15 @@ body {
     display: block;
     margin-top: 20px;
     font-size: 120px;
+    margin-bottom: 50px;
 }
 
 .join-today {
     display: inline-block;
-    margin-top: 50px;
-    margin-left: 50px;
     background-color: black;
     border-radius: 1000px;
     padding: 10px 50px;
+    margin-top: 50;
 
     color: white;
     font-family: 'Monsterrat', sans-serif;
@@ -75,5 +73,10 @@ body {
 
 .join-today:hover {
     background-color: rgb(100, 100, 100);
+}
+
+.footer-paragraph {
+    margin: 75px 0px 0px 15px;
+    font-family: 'Monsterrat', sans-serif;
 }
 
