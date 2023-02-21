@@ -44,9 +44,25 @@ body {
     background-attachment: fixed;
 }
 
+@media (max-width: 62.5em) {
+    body {
+        background-color: rgb(226, 29, 60);
+        background-image: url(../images/waves-white.svg);
+        background-size: 40% auto;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
 .page {
     display: flex;
-    min-height: 100vh;
+    flex: 1 0 auto;
+}
+
+@media (max-width: 62.5em) {
+    .page {
+        flex-direction: column;
+    }
 }
 
 .main-content {
@@ -55,6 +71,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .countdown {
@@ -72,12 +94,18 @@ body {
 }
 
 .main-offer {
-    margin: 10rem 1.5rem 10rem 1.5rem;
+    margin: 7.5rem 1.5rem 10rem 1.5rem;
     align-self: center;
+    flex: 1 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .main-heading {
-    margin: 0;
+    margin: 3rem 0 0 0;
     letter-spacing: 0.05em;
     font-style: italic;
     font-size: 2.8rem;
