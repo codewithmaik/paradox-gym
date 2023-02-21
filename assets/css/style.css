@@ -6,9 +6,11 @@
 
 html {
     min-height: 100%;
+    font-size: 0.625em;
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     min-height: 100%;
     margin: 0;
     padding: 0;
@@ -26,7 +28,6 @@ body {
 
 .page {
     display: flex;
-    font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
 }
 
@@ -47,21 +48,22 @@ body {
 }
 
 .logo {
-    width: 275px;
-    margin-top: 15px;
-    margin-left: 15px;
+    width: 27.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .main-offer {
-    margin: 100px 15px 100px 15px;
+    margin: 10rem 1.5rem 10rem 1.5rem;
     align-self: center;
 }
 
 .main-heading {
+    margin: 0;
+    letter-spacing: 0.05em;
     font-style: italic;
-    font-size: 30px;
+    font-size: 2.8rem;
     font-weight: normal;
-    letter-spacing: 0.1em;
     color: white;
 }
 
@@ -71,21 +73,18 @@ body {
 
 .main-offer-price {
     display: block;
-    margin-top: 20px;
-    font-size: 120px;
-    margin-bottom: 50px;
+    font-size: 12rem;
+    margin-top: 1.8rem;
 }
 
 .join-today {
     display: inline-block;
+    font-size: 2.4rem;
     background-color: black;
-    border-radius: 1000px;
-    padding: 10px 50px;
-    margin-top: 50;
-
     color: white;
-    font-family: 'Monsterrat', sans-serif;
-    font-size: 24px;
+    border-radius: 9999px;
+    padding: 1rem 5rem;
+    margin-top: 4rem;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -95,15 +94,16 @@ body {
 }
 
 .footer-paragraph {
-    margin: 15px 0 15px 15px;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+    color: black;
 }
 
 .countdown-heading {
-    margin: 0 0 0 0;
+    margin: 0;
     color: white;
     text-align: center;
-    letter-spacing: 0.1em;
-    font-size: 30px;
+    letter-spacing: 0.05em;
+    font-size: 2.8rem;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -113,5 +113,5 @@ body {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 5.8rem;
 }
