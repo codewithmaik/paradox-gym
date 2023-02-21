@@ -9,6 +9,24 @@ html {
     font-size: 0.625em;
 }
 
+@media (min-width: 100em) {
+    body {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 120em) {
+    body {
+        font-size: 1.0em;
+    }
+}
+
+@media (min-width: 120em) {
+    body {
+        font-size: 1.25em;
+    }
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100%;
