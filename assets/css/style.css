@@ -23,8 +23,17 @@ body {
     background-position: 50% 50%, 100% 100%, 50% 50%, 100% 25%;
 }
 
+.page {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .main-content {
-    width: 40%;
+    flex: 0 0 40%;
+}
+
+.countdown {
+    flex: 0 1 60%;
 }
 
 .logo {
@@ -34,11 +43,10 @@ body {
 }
 
 .main-offer {
-    margin: 75px 15px 75px 50px;
+    margin: 75px 15px 75px 100px;
 }
 
 .main-heading {
-    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-size: 30px;
     font-weight: normal;
@@ -80,3 +88,20 @@ body {
     font-family: 'Monsterrat', sans-serif;
 }
 
+.countdown-heading {
+    margin: 0;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.countdown-paragraph {
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
