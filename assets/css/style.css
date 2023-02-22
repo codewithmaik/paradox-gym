@@ -48,9 +48,15 @@ body {
     body {
         background-color: rgb(226, 29, 60);
         background-image: url(../images/waves-white.svg);
-        background-size: 40% auto;
+        background-size: 33vw auto;
         background-position: 100% 100%;
         background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 30em) {
+    body {
+        background-image: none;
     }
 }
 
@@ -93,6 +99,14 @@ body {
     margin-left: 1.5rem;
 }
 
+@media (max-width: 62.5rem) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .main-offer {
     margin: 7.5rem 1.5rem 10rem 1.5rem;
     align-self: center;
@@ -104,6 +118,13 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 62.5em) {
+    .main-offer {
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+}
+
 .main-heading {
     margin: 3rem 0 0 0;
     letter-spacing: 0.05em;
@@ -111,6 +132,12 @@ body {
     font-size: 2.8rem;
     font-weight: normal;
     color: white;
+}
+
+@media (max-width: 62.5em) {
+    .main-heading {
+        text-align: center;
+    }
 }
 
 .main-heading > strong {
